@@ -1,10 +1,10 @@
 import { Header } from "../header/Header";
 import { AboutSections } from "../AboutSections";
-import warhammer from "../assets/warhammer.jpg";
+import warhammer from "../assets/warhammer.webp";
 import shoes from "../assets/shoes.jpg";
-import knives from "../assets/knives.jpg";
+import knives from "../assets/knives.webp";
 import snowboard from "../assets/snowboard.jpeg";
-import reading from "../assets/reading.jpg";
+import reading from "../assets/reading.webp";
 import gaming from "../assets/gaming.jpg";
 import coding from "../assets/coding.avif";
 
