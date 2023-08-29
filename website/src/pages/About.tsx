@@ -15,7 +15,7 @@ export const About = () => {
       <AboutSections
         title="Coding"
         image={coding}
-        paragraph="I have been coding for just over a year now, working with languages such as JavaScript, C#, HTML, and CSS and using multiple different frameworks consisting of React, Svelte, Astro, Vite and Tailwind. I enjoy the problem solving aspect of it and building SPA and MPA styled websites."
+        paragraph="I have been coding for just over a year now, working with languages such as JavaScript, TypeScript, C#, HTML, and CSS and using multiple different frameworks consisting of React, Svelte, Astro, Vite and Tailwind. I enjoy the problem solving aspect of it and building SPA and MPA styled websites."
       />
       <AboutSections
         title="Miniature painting"
