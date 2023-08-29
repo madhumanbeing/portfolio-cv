@@ -2,7 +2,6 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App.tsx";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import { ErrorPage } from "./pages/Error-page.tsx";
 import "tailwindcss/tailwind.css";
 import { Contact } from "./pages/Contact.tsx";
 import { About } from "./pages/About.tsx";
@@ -12,7 +11,6 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
-    errorElement: <ErrorPage />,
   },
   {
     path: "/Contact",

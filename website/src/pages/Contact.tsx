@@ -90,7 +90,7 @@ export const Contact = () => {
                   </label>
 
                   <textarea
-                    rows="5"
+                    rows={5}
                     name="message"
                     id="message"
                     placeholder="Your Message"
