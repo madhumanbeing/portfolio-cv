@@ -73,3 +73,9 @@
     padding-top: 0;
   }
 }
+
+@media only screen and (max-width: 730px) {
+  .image-container {
+    margin-top: 2rem;
+  }
+}

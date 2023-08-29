@@ -2,8 +2,8 @@
   "name": "website",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://madhumanbeing.github.io/portfolio-live/",
   "type": "module",
+  "homepage": "https://madhumanbeing.github.io/portfolio-live/",
   "scripts": {
     "dev": "vite",
     "predeploy": "npm run build",

@@ -6,21 +6,26 @@ import "tailwindcss/tailwind.css";
 import { Contact } from "./pages/Contact.tsx";
 import { About } from "./pages/About.tsx";
 import "./input.css";
+import ErrorPage from "./pages/Error-page.tsx";
 
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <App />,
-  },
-  {
-    path: "/Contact",
-    element: <Contact />,
-  },
-  {
-    path: "/About",
-    element: <About />,
-  },
-]);
+const router = createBrowserRouter(
+  [
+    {
+      path: "/",
+      element: <App />,
+      errorElement: <ErrorPage />,
+    },
+    {
+      path: "/Contact",
+      element: <Contact />,
+    },
+    {
+      path: "/About",
+      element: <About />,
+    },
+  ],
+  { basename: "/portfolio-live" }
+);
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
