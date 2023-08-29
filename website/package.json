@@ -2,7 +2,7 @@
   "name": "website",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://madhumanbeing.github.io/portfolio-cv/",
+  "homepage": "https://madhumanbeing.github.io/portfolio-live/",
   "type": "module",
   "scripts": {
     "dev": "vite",
