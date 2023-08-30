@@ -18,13 +18,13 @@ export const AboutSections: React.FC<AboutSectionsProps> = ({
           <div className="flex flex-col text-center sm:max-3xl:grid sm:max-3xl:grid-cols-2 justify-center">
             <div className="mt-10 mx-auto text-left sm:max-3xl:w-3/4">
               <h2
-                className="font-medium text-left"
+                className="font-medium text-left mt-4"
                 style={{ fontFamily: "Inter, sans-serif", fontSize: "1.6rem" }}
               >
                 {title}
               </h2>
               <p
-                className="mt-10"
+                className="mt-6"
                 style={{ fontFamily: "Inter, sans-serif", fontSize: "1.1rem" }}
               >
                 {paragraph}

@@ -4,9 +4,9 @@ export const Contact = () => {
   return (
     <div>
       <Header />
-      <div className="flex items-center min-h-screen bg-gray-100">
+      <div className="flex min-h-screen bg-gray-100">
         <div className="container mx-auto">
-          <div className="max-w-md mx-auto my-10 bg-white p-5 rounded-md shadow-md border-black border">
+          <div className="max-w-md mx-auto my-10  bg-white p-5 rounded-md shadow-md border-black border">
             <div className="text-center">
               <h1 className="my-3 text-3xl font-semibold text-gray-700 ">
                 Get in touch
